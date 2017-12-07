@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tudienghichu.chancahhoop.tudienghichu">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic"
+        android:label="Ghi chú từ vựng"
+        android:roundIcon="@drawable/ic"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:windowSoftInputMode="adjustPan">
+        <activity
+            android:name="com.tudienghichu.chancahhoop.tudienghichu.Intro.WelcomeActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tudienghichu.chancahhoop.tudienghichu.MainActivity"
+            android:label="@string/title_activity_welcome" />
+        <activity android:name="com.tudienghichu.chancahhoop.tudienghichu.HuongDan"
+            android:label="Hướng dẫn"
+            android:parentActivityName="com.tudienghichu.chancahhoop.tudienghichu.MainActivity"></activity>
+    </application>
+
+</manifest>

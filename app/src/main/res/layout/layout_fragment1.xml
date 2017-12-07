@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:windowSoftInputMode="stateVisible"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:isScrollContainer="true"
+    android:id="@+id/fragment1"
+    android:layout_gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/icon" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:weightSum="100">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/edTiengViet"
+            android:singleLine="true"
+            android:hint="Từ vựng" android:layout_weight="98.5"/>
+
+        <Button
+            android:id="@+id/btnTiengViet"
+            android:layout_width="30dp"
+            android:layout_weight="0.5"
+            android:layout_height="30dp"
+
+            android:background="@drawable/phatam"
+            />
+        <Button
+            android:id="@+id/btnPhatAmTiengViet"
+            android:layout_width="30dp"
+            android:layout_weight="0.5"
+            android:layout_height="30dp"
+
+            android:background="@drawable/loa"
+
+            />
+        <Button
+            android:id="@+id/btnNhanDienTiengViet"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/ear"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="90dp"
+        android:gravity="center">
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/btnLen"
+            android:background="@drawable/buttontop"/>
+        <Button
+            android:id="@+id/btnSuong"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/buttonbutom"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:weightSum="100">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:id="@+id/edTiengAnh"
+            android:hint="Từ vựng"
+            android:layout_weight="98.5"/>
+        <Button
+            android:id="@+id/btnTiengAnh"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/phatam"
+            />
+        <Button
+            android:id="@+id/btnPhatAmTiengAnh"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/loa"/>
+        <Button
+            android:id="@+id/btnNhanDienTiengAnh"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/ear"
+             />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+    <EditText
+        android:layout_width="0dp"
+        android:layout_weight="90"
+        android:layout_height="wrap_content"
+        android:id="@+id/edGhiChu"
+        android:hint="Ghi chú"
+
+        android:lines="3"/>
+    <Button
+        android:layout_width="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="10"
+        android:layout_height="wrap_content"
+        android:text="..."
+        android:textStyle ="bold"
+        android:id="@+id/btnChiTiet"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="15"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:id="@+id/btnThem"
+            android:text="Thêm"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:id="@+id/btnSua"
+            android:text="Sửa"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:id="@+id/btnXoa"
+            android:text="Xóa trắng"/>
+    </LinearLayout>
+
+</LinearLayout>

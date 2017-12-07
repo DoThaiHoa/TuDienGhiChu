@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/fragment2"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="100">
+    <EditText
+        android:hint="Tìm từ vựng..."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edSearch"
+        android:layout_margin="10dp"/>
+    <ListView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="95"
+    android:id="@+id/gridView" />
+   <!--<LinearLayout-->
+       <!--android:layout_width="match_parent"-->
+       <!--android:layout_height="0dp"-->
+       <!--android:orientation="horizontal"-->
+       <!--android:layout_weight="10"-->
+       <!--android:weightSum="100">-->
+       <Button
+       android:layout_width="match_parent"
+       android:layout_weight="5"
+       android:id="@+id/btnDeleteAll"
+       android:text="Xóa toàn bộ"
+       android:layout_height="wrap_content" />
+       <!--<Button-->
+       <!--android:layout_width="0dp"-->
+       <!--android:layout_weight="50"-->
+       <!--android:id="@+id/btnDelete"-->
+       <!--android:text="Delete"-->
+       <!--android:layout_height="wrap_content" />-->
+   <!--</LinearLayout>-->
+
+</LinearLayout>
+

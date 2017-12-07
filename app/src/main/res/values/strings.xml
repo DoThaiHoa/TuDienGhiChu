@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Ghi Chú Từ Vựng</string>
+    <string name="title_activity_welcome">Ghi Chú Từ Vựng</string>
+    <string name="next">Tiếp theo</string>
+    <string name="skip">Bỏ qua</string>
+    <string name="start">Bắt đầu</string>
+    <string name="slide_1_title">Ghi nhớ bằng hình ảnh</string>
+    <string name="slide_1_desc">Sử dụng những hình ảnh có liên quan để ghi nhớ dễ dàng hơn</string>
+    <string name="slide_2_title">Phát âm chính sác</string>
+    <string name="slide_2_desc">Sử dụng chức năng thu âm để học cách phát âm chính sác</string>
+    <string name="slide_3_title">Tự tạo từ vựng</string>
+    <string name="slide_3_desc">Đây không phải cuốn tử điển có sẵn, hãy tạo ra một cuốn tử điển cho riêng bạn</string>
+    <string name="play_again_desc"></string>
+    <string name="play_again"></string>
+
+</resources>
